@@ -1,7 +1,10 @@
 import scanner
+from app import App
 
 def main():
-    scanner.print_text('image.jpg')
+    app = App()
+    app.start()
+    #scanner.print_text('image.jpg')
 
 if __name__ == '__main__':
     main()
