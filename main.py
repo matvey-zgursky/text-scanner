@@ -2,6 +2,7 @@ import scanner
 from app import App
 
 def main():
+    """Основная функция запуска приложения"""
     try:
         app = App()
         app.start()
