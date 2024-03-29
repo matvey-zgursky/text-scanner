@@ -5,7 +5,7 @@ def main():
     """Основная функция запуска приложения"""
     try:
         app = App()
-        app.start()
+        app.mainloop()
         #scanner.print_text('image.jpg')
     except Exception as ex:
         print(f"Error: {ex}")
